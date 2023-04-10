@@ -5,13 +5,13 @@ import { IonicModule } from '@ionic/angular';
 import { PickupCallCardComponent } from 'src/app/components/pickup-call-card/pickup-call-card.component';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.page.html',
-  styleUrls: ['./home.page.scss'],
+  selector: 'app-pickup-calls',
+  templateUrl: './pickup-calls.page.html',
+  styleUrls: ['./pickup-calls.page.scss'],
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule, PickupCallCardComponent]
 })
-export class HomePage implements OnInit {
+export class PickupCallsPage implements OnInit {
 
   constructor() { }
 

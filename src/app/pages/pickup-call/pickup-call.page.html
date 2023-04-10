@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button text="" ></ion-back-button>
+    </ion-buttons>
+    <ion-title>Pickup Call</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <img src="../../../assets/images/HILmr.png">
+  <ion-card>
+    <ion-card-content>
+      <P>Address: St. Name, 111</P>
+      <P>Complement: Apto 222</P>
+      <P>Neighborhood: neighborhood</P>
+      <P>Zip code: 123456</P>
+      <P>City Name - State</P>
+    </ion-card-content>
+  </ion-card>
+  <ion-list>
+    <ion-item lines="inset">
+      <ion-label position="floating">Notes</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+  </ion-list>
+  <ion-button color="success" size="full">Create Pickup Call</ion-button>
+</ion-content>
